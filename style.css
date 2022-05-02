@@ -7,28 +7,30 @@ canvas {
 }
 h3{
   color: blueviolet;
-  background-color: aqua;
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
+  font-size: 70;
   position: relative;
-  padding: 30px;
+  padding: 50px;
+  margin: 0%;
 }
 .para{
-  margin: 10px;
+  margin: 0px;
   
-  background-color: aquamarine;
+  background-color: black;
   display: inline-block;
-  color: black;
-  line-height: 250%;
+  color: white;
+  line-height: 100%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: larger;
+  font-size: x-large;
   position: relative;
   padding: 30px;
 }
 #intro{
-  color: blueviolet;
-  background-color: bisque;
+  color: red;
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 100%;
   font-size: x-large;
   padding: 30px;
 }
