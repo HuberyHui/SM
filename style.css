@@ -9,8 +9,19 @@ h3{
   color: blueviolet;
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 70;
+  font-size: 180;
   position: relative;
+  vertical-align: middle;
+  padding: 50px;
+  margin: 0%;
+}
+h1{
+  color: blueviolet;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100;
+  position: relative;
+  vertical-align: middle;
   padding: 50px;
   margin: 0%;
 }
@@ -33,4 +44,25 @@ h3{
   line-height: 100%;
   font-size: x-large;
   padding: 30px;
+}
+#heri{
+  color: black;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 100%;
+  font-size: x-large;
+  padding: 30px;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.wrapper{
+  margin:0 auto;
+  width: 1000px;
+}
+
+.imgg{
+  width: 700px;
 }
