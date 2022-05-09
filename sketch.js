@@ -10,6 +10,7 @@ let u;
 let omg = 50;
 let qw = 560;
 let dfg;
+let mask;
 
 
 function setup() {
@@ -24,6 +25,14 @@ function setup() {
     particles.push(createVector(random(0,width),random(0,height)))
   }
   //angleMode(DEGREES);
+  mask = createGraphics(width, height);
+  mask.background(0);
+  mask.noStroke();
+  mask.fill(255, 255, 255, 255);
+  mask.blendMode(REMOVE);
+  mask.ellipse(width/2, height/2, qw*2,qw,5,5,Math.TWO_PI);
+
+ 
 }
 
 this.colorer = function(){
@@ -174,7 +183,8 @@ function draw() {
   stroke(0,0,0,255);
   circle(0,0,height*0.0005);
   pop();
-  
+  4
+image(mask, 0, 0);
   
   
   
